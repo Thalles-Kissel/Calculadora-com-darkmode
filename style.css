@@ -100,7 +100,20 @@ button:hover:not(.operador){
     font-size: 20px;
     margin: 10px 5px;
     border-radius: 5px;
-    background-color: #ffffff;
-    border: 2px solid #000000;
+    background-color: #595858;
+    color: #e2e1e1;
+    border: 2px solid #ffffff;
     float: left;
+
+}
+
+.dark-mode .operador:hover{
+    background-color: #000000c2;
+    cursor: pointer;
+}
+
+.dark-mode .operador{
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #ffffff;
 }
